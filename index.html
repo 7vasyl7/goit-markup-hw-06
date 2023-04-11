@@ -33,7 +33,11 @@
             >Web<span class="header-logo-studio styles-logo">Studio</span></a
           >
           <ul class="header-list list">
-            <li><a href="./index.html" class="header-item activ-page link">Studio</a></li>
+            <li>
+              <a href="./index.html" class="header-item activ-page link"
+                >Studio</a
+              >
+            </li>
             <li>
               <a href="./portfolio.html" class="header-item link">Portfolio</a>
             </li>
@@ -61,7 +65,9 @@
       <section class="visionhero">
         <div class="container">
           <h1 class="vision-titl">Effective Solutions for Your Business</h1>
-          <button type="button" class="vision-btn" data-modal-open>Order Service</button>
+          <button type="button" class="vision-btn" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!----------------------- секція 1 -->
@@ -458,16 +464,86 @@
       </div>
     </footer>
     <!------------------------------  Modal Window -->
-    
+
     <div class="modal-box is-hidden" data-modal>
       <div class="modal-window">
         <button type="button" class="modal-button" data-modal-close>
-          <svg class="modal-icon"
-          width="8"
-          height="8" >
-            <use href="./images/icons.svg#icon-modal-close" > </use>
+          <svg class="modal-icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-modal-close"></use>
           </svg>
         </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div class="modal-contact">
+            <label for="user-name" class="modal-label">Name</label>
+            <div class="modal-icon-wrap">
+              <p class="line"></p>
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="modal-input"
+                placeholder=""
+                required
+              />
+              <svg class="modal-icon" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-person-name"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal-contact">
+            <label for="user-name" class="modal-label">Phone</label>
+            <div class="modal-icon-wrap">
+              <p class="line"></p>
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="modal-input"
+                placeholder=""
+                required
+              />
+              <svg class="modal-icon" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-person-phone"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal-contact">
+            <label for="user-name" class="modal-label">Email</label>
+            <div class="modal-icon-wrap">
+              <p class="line"></p>
+              <div>
+                <input
+                  type="text"
+                  name="user-name"
+                  id="user-name"
+                  class="modal-input"
+                  placeholder=""
+                  required
+                />
+                <svg class="modal-icon" width="18px" height="18px">
+                  <use href="./images/icons.svg#icon-person-email"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="modal-contact">
+            <label for="user-text" class="modal-label-text">
+              Comment</label>
+              <textarea
+                  name="user-text"
+                  id="user-text" 
+                   placeholder="Text input" 
+                   class="modal-textara"
+                   
+              ></textarea>
+            
+            
+
+          <button type="submit" class="modal-form-btn">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>

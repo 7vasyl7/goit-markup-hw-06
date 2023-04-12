@@ -755,12 +755,15 @@ body {
   opacity: 1;
 }
 
-.modal-icon-wrap:is(:hover, :focus-within) {
+.modal-icon-wrap:is(:hover, :focus-within) .modal-input {
   outline: none;
   fill: var(--bg-color-social-icons, #4d5ae5);
   border: 1px solid var(--bg-color-social-icons, #4d5ae5);
   border-radius: 4px;
 }
+
+.modal-icon-wrap:is(:hover, :focus-within) .modal-icon{
+  fill: var(--bg-color-social-icons, #4d5ae5);
 
 .modal-input {
   outline: none;

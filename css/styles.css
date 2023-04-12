@@ -490,29 +490,29 @@ body {
   fill: #f4f4fd;
 }
 
-
-.footer-subscribe { 
-   display: flex;
-   gap: 24px;
+.footer-subscribe {
+  display: flex;
+  gap: 24px;
 }
 
 .subscribe-text {
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
   font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;    
-      letter-spacing: 0.02em;      
-    color: #FFFFFF;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .subscribe-input {
   width: 264px;
-  height: 40px;   
-  background: #2E2F42; 
-  color: #FFFFFF;  
-  border: 1px solid #FFFFFF;  
-  border-radius: 4px;}
+  height: 40px;
+  background: #2e2f42;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
 
 .button-subscribe {
   display: flex;
@@ -520,31 +520,30 @@ body {
   border: 0;
   padding: 8px 64px 8px 24px;
   font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;         
-    letter-spacing: 0.04em;       
-    color: #FFFFFF;
-    background: #4D5AE5;
-      border-radius: 4px;
-      transition: background-color var(--transition);
-
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  border-radius: 4px;
+  transition: background-color var(--transition);
 }
 
 .button-subscribe:is(:hover, :focus) {
   background-color: var(--button-background-hover, #404bbf);
 }
 
-.subscribe-icon { 
+.subscribe-icon {
   position: absolute;
-  top: 0; 
-  right: 24px;  
-  transform: translateY(50%); 
-  color: #FFFFFF; 
+  top: 0;
+  right: 24px;
+  transform: translateY(50%);
+  color: #ffffff;
 }
 
-.footer-buton-subscribe-wrap{
-   margin-top: 24px; 
-  position: relative;  
+.footer-buton-subscribe-wrap {
+  margin-top: 24px;
+  position: relative;
 }
 
 /**-------------Сторінка портфоліо--------------*/
@@ -587,7 +586,7 @@ body {
 
 .category-list {
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   margin-top: 72px;
   row-gap: 48px;
   column-gap: 24px;
@@ -612,7 +611,8 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--color-headings, #2e2f42);  margin: auto;
+  color: var(--color-headings, #2e2f42);
+  margin: auto;
 
   text-align: left;
 }
@@ -728,11 +728,6 @@ body {
   text-align: center;
 }
 
-
-
-.modal-form {
-}
-
 .modal-contact {
   margin-bottom: 8px;
   height: 58px;
@@ -774,7 +769,7 @@ body {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding: 0;
-  padding-left: 40px;  
+  padding-left: 40px;
 }
 
 .line {
@@ -825,7 +820,7 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0.04em; 
+  letter-spacing: 0.04em;
   transition: border var(--transition);
 }
 
@@ -835,7 +830,44 @@ body {
   border: 1px solid #4d5ae5;
   border-radius: 4px;
 }
+
+.modal-contact-comment {
+  margin-bottom: 16px;
+}
+
+.modal-accpet-wrap {
+  margin-bottom: 16px;
+}
+
+.modal-accept-input {
+  width: 16px;
+  height: 16px;
+  outline: none;
+  margin: 0 8px 0 0;
+  /* transition: background-color var(--transition); */
+}
+
+.modal-accept-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+
+.modal-accept {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+
+/* .modal-accept-input:is(:hover, :focus) {
+  background-color: var(--button-background-hover, #404bbf);
+} */
 .modal-form-btn {
+  width: 169px;
+  padding: 16px 0 16px 0;
+  margin-left: 95px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-weight: 500;
   font-size: 16px;
@@ -847,11 +879,8 @@ body {
   border-radius: 4px;
   border: 0;
   transition: background-color var(--transition);
-  width: 169px;
-  padding: 16px 0 16px 0;
-
-  margin-left: 95px;
 }
+
 .modal-form-btn:is(:hover, :focus) {
   background-color: var(--button-background-hover, #404bbf);
 }

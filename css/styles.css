@@ -420,7 +420,7 @@ body {
 .footer-container {
   display: flex;
   align-items: start;
-  gap: 120px;
+ 
 }
 
 .footer-logo-web {
@@ -442,6 +442,7 @@ body {
 
 .footer-logo {
   max-width: 264px;
+  margin-right: 120px;
 }
 
 .footer-cocial {
@@ -491,21 +492,26 @@ body {
 }
 
 .footer-subscribe {
-  display: flex;
-  gap: 24px;
+ 
+  margin-left: auto;
 }
 
-.subscribe-text {
-  display: flex;
-  flex-direction: column;
+.subscribe-text { 
+  font-family: 'Roboto';
+    font-style: normal;
+  display: block;  
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-team-name, #ffffff);
+ height: 24px;
+ margin-bottom: 16px;
 }
 
 .subscribe-input {
+  padding-left: 16px;
   width: 264px;
   height: 40px;
   background: var(--background-color-vision, #2e2f42);
@@ -515,10 +521,14 @@ body {
 }
 
 .button-subscribe {
+  font-family: 'Roboto';
+    font-style: normal;
   display: flex;
+    justify-items: center;
   cursor: pointer;
   border: 0;
-  padding: 8px 64px 8px 24px;
+  gap: 16px;
+  padding: 8px 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -533,17 +543,14 @@ body {
   background-color: var(--button-background-hover, #404bbf);
 }
 
-.subscribe-icon {
-  position: absolute;
-  top: 0;
-  right: 24px;
-  transform: translateY(50%);
-  color: var(--color-team-name, #ffffff);
-}
 
 .footer-buton-subscribe-wrap {
-  margin-top: 24px;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+ 
+ 
 }
 
 /**-------------Сторінка портфоліо--------------*/
@@ -685,8 +692,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   width: 408px;
-  height: 584px;
-  padding: 24px;
+  
+  padding: 72px 24px 24px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -721,12 +728,12 @@ body {
 }
 
 .modal-text {
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-top: 48px;
+  color: #2e2f42;  
   margin-bottom: 16px;
   text-align: center;
 }

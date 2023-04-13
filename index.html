@@ -426,19 +426,42 @@
         </div>
 
         <div class="modal-contact-comment">
-          <label for="user-text" class="modal-label-text">
+           <label for="user-text" class="modal-label-text">
             Comment</label>
-          <textarea name="user-text" id="user-text" placeholder="Text input" class="modal-textarea"></textarea>
+            <textarea name="user-text" id="user-text" placeholder="Text input" class="modal-textarea"></textarea>
         </div>
 
-        <div class="modal-accpet-wrap">
-          <label for="" class="modal-accept-label">
-            <input type="checkbox" class="modal-accept-input">
-            <span class="modal-accept-text">
-              I accept the terms and conditions of the <a href="#" class="modal-accept">Privacy Policy</span>
-            </a>
-          </label>
+
+
+
+        <div class="modal-accpet-wrap">          
+             <input 
+             type="checkbox" 
+             class="modal-accept-input visually-hidden"
+             name="castoms"
+             id="castoms-checkbox"
+             value="test" 
+             />
+
+              <label for="castoms-checkbox" class="modal-accept-label">
+                   <span>
+                         <svg class="check-icon" width="10px" height="8px">
+                               <use href="./images/icons.svg#icon-chek"></use>
+                           </svg>  
+                   </span>          
+                          I accept the terms and conditions of the 
+                          <a href="#" class="modal-accept">Privacy Policy </a>                 
+            
+               </label>
+                
+
+
+
         </div>
+
+
+
+
 
 
 
